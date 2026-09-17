@@ -1,0 +1,23 @@
+# OAuth credentials — NEVER commit these
+credentials.json
+token.pickle
+
+# Output files
+*.xlsx
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
