@@ -38,7 +38,7 @@ from main import (
 
 # ── Config ────────────────────────────────────────────────────────────────────
 SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
-REDIRECT_URI = "https://irish-rail-spend-tracker.streamlit.app/oauth2callback"
+REDIRECT_URI = "https://irish-rail-spend-tracker.streamlit.app"
 
 # Fall back to env vars for local dev without secrets.toml
 CLIENT_ID = st.secrets.get("GOOGLE_CLIENT_ID", os.environ.get("GOOGLE_CLIENT_ID", ""))
